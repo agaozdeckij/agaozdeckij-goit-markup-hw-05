@@ -17,7 +17,7 @@
       <nav class="main-nav">
         <a href="./index.html" class="logo-header"><span class="web-header">Web</span>Studio</a>
         <ul class="site-nav list">
-          <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+          <li class="item "><a href="./index.html" class="link current active-page">Студия</a></li>
           <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
           <li class="item"><a href="#contacts" class="link">Контакты</a></li>
         </ul>
@@ -46,7 +46,7 @@
         для вашего бизнеса
       </h1>
       <div class="hero-button">
-      <button type="button" class="button primary">Заказать услугу</button>
+      <button type="button" class="button primary" data-modal-open>Заказать услугу</button>
     </div>
     </div>
     </section>
@@ -97,6 +97,7 @@
             height="294"
             alt="Руки набирают код програмирования на клавиатуре"
           />
+          <p class="text-example-photo">Десктопные приложения</p>
         </li>
         <li class="example-photo">
           <img
@@ -105,6 +106,7 @@
             height="294"
             alt="Девушка держит телефон"
           />
+          <p class="text-example-photo">Мобильные приложения</p>
         </li>
         <li class="example-photo">
           <img
@@ -113,6 +115,7 @@
             height="294"
             alt="Работа с картинкой на планшете"
           />
+          <p class="text-example-photo">Дизайнерские решения</p>
         </li>
       </ul>
       </div>
@@ -401,5 +404,15 @@
     </div>
 
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="button-close" data-modal-close>
+          <svg class="button-icon" width="11px" height="11px">
+            <use href="./images/sprite.svg#icon-Vector"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
