@@ -109,6 +109,7 @@ header {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .link.current {
   color: var(--accent-text-color);
@@ -151,6 +152,7 @@ header {
 .envelope-link:hover .envelope-icon,
 .envelope-link:focus .envelope-icon {
   fill: var(--accent-text-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .smartphone-link {
@@ -164,6 +166,7 @@ header {
 .smartphone-link:hover .smartphone-icon,
 .smartphone-link:focus .smartphone-icon {
   fill: var(--accent-text-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-contacts .link {
@@ -179,10 +182,12 @@ header {
 .envelope-link:hover,
 .envelope-link:focus {
   color: var(--accent-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .smartphone-link:hover,
 .smartphone-link:focus {
   color: var(--accent-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* main */
@@ -418,10 +423,12 @@ header {
 .icon-link-item:hover,
 .icon-link-item:focus {
   background-color: var(--accent-text-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-link-item:hover .icon-link,
 .icon-link-item:focus .icon-link {
   fill: var(--primary-white-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Кнопка на index.html */
 .button.primary {
@@ -471,10 +478,12 @@ header {
 .clients-link:hover,
 .clients-link:focus {
   border-color: var(--accent-text-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon {
   fill: var(--accent-text-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Футер */
@@ -505,6 +514,7 @@ header {
 .mail:hover,
 .mail:focus {
   color: var(--accent-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .phone-number {
   margin-bottom: 60px;
@@ -512,6 +522,7 @@ header {
 .phone-number:hover,
 .phone-number:focus {
   color: var(--accent-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Join-icons */
 .join-title {
@@ -561,6 +572,7 @@ header {
 .join-link:hover,
 .join-link:focus {
   background-color: var(--accent-text-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Страница portfolio.html */
@@ -585,6 +597,8 @@ header {
 .button-secondary:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-text-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon {
   margin-top: 94px;
@@ -654,6 +668,7 @@ header {
 .card-product:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card-product:hover .product-thumb::before,
 .card-product:focus .product-thumb::before {
